@@ -1,0 +1,2 @@
+APV	100000.0	Tersedia
+MPV	120000.0	Tidak Tersedia
