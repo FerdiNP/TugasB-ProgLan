@@ -133,6 +133,16 @@
             totalTransaksiLabel.setText("" + totalTransaksi);
         }
 
+        @FXML
+        public void goMobil(MouseEvent event){
+            mobilColumn();
+        }
+
+        @FXML
+        public void goTransact(MouseEvent event){
+            transaksiColumn();
+        }
+
         // Method untuk Switch Form
         @FXML
         public void switchForm(ActionEvent event) {

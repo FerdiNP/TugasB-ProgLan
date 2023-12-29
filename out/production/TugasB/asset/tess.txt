@@ -1,0 +1,1 @@
+MPV	3	John Doe	Laki-Laki	300000.0
