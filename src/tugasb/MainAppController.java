@@ -227,7 +227,6 @@
         public void tableCarSelect(MouseEvent event) {
             Mobil selectedMobil = table.getSelectionModel().getSelectedItem();
             if (selectedMobil != null) {
-                // Populate the update fields with the selected data
                 updateMobil.setText(selectedMobil.getNamaMobil());
                 updateHarga.setText(String.valueOf(selectedMobil.getHargaHari()));
                 updateStatus.setValue(String.valueOf(selectedMobil.getStatus()));
@@ -423,7 +422,6 @@
                     double hargaMobil = mobilInput.getHargaHari();
                     double totalHarga = hargaMobil * jumlahHari;
 
-                    // Create a new Transaksi object
                     Transaksi transaksi = new Transaksi(mobilInput, jumlahHari, namaInput, genderInput, totalHarga);
 
                     transaksi.setTotalHarga(totalHarga);
